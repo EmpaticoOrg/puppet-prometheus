@@ -45,6 +45,13 @@ class prometheus::params {
         },
     },
   ]
+  $nginx_exporter_download_url_base = 'https://github.com/discordianfish/statsd_exporter/releases'
+  $nginx_exporter_version = '0.3.0'
+  $nginx_exporter_download_extension = 'tar.gz'
+  $nginx_exporter_package_ensure = 'latest'
+  $nginx_exporter_package_name = 'nginx_exporter'
+  $nginx_exporter_extra_groups = []
+  $nginx_exporter_user = 'nginx-exporter'
   $alertmanager_download_url_base = 'https://github.com/prometheus/alertmanager/releases'
   $alertmanager_config_dir = '/etc/alertmanager'
   $alertmanager_config_file = "${alertmanager_config_dir}/alertmanager.yaml"
