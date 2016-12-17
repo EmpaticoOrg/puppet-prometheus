@@ -10,7 +10,6 @@ define prometheus::daemon (
   $package_name,
   $package_ensure,
   $manage_user,
-  $user,
   $extra_groups,
   $group,
   $manage_group,
