@@ -1,16 +1,15 @@
 source "https://rubygems.org"
 
 group :development,:test do
+  gem 'safe_yaml', '~> 1.0.4'
   gem "json"
-  # Pin for 1.8.7 compatibility for now
-  gem "rake", '< 11.0.0'
-  gem "puppet", ENV['PUPPET_VERSION'] || '~> 3.7.0'
+  gem "rake"
+  gem "puppet", ENV['PUPPET_VERSION'] || '~> 3.8.0'
   gem "puppet-lint"
 
-  # Pin for 1.8.7 compatibility for now
-  gem "rspec", '< 3.2.0'
-  gem "rspec-core", "3.1.7"
-  gem "rspec-puppet", "~> 2.1"
+  gem "rspec"
+  gem "rspec-core"
+  gem "rspec-puppet"
 
   gem "puppet-syntax"
   gem "puppetlabs_spec_helper"

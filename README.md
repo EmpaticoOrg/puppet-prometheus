@@ -1,7 +1,7 @@
 # puppet-prometheus
-[![Puppet Forge](https://img.shields.io/puppetforge/e/brutus777/prometheus.svg)](https://forge.puppetlabs.com/brutus777/prometheus)
-[![Puppet Forge](https://img.shields.io/puppetforge/v/brutus777/prometheus.svg)](https://forge.puppetlabs.com/brutus777/prometheus)
-[![Puppet Forge](https://img.shields.io/puppetforge/f/brutus777/prometheus.svg)](https://forge.puppetlabs.com/brutus777/prometheus)
+[![Puppet Forge](https://img.shields.io/puppetforge/e/jamtur01/prometheus.svg)](https://forge.puppet.com/jamtur01/prometheus)
+[![Puppet Forge](https://img.shields.io/puppetforge/v/jamtur01/prometheus.svg)](https://forge.puppet.com/jamtur01/prometheus)
+[![Puppet Forge](https://img.shields.io/puppetforge/f/jamtur01/prometheus.svg)](https://forge.puppet.com/jamtur01/prometheus)
 
 ## Compatibility
 
@@ -11,6 +11,9 @@
 
 
 ## Background
+
+(This module adapted from Brutus333's original to suit our environment -
+all original credit to them.)
 
 This module automates the install and configuration of Prometheus monitoring tool: [Prometheus web site](https://prometheus.io/docs/introduction/overview/)
 
@@ -83,6 +86,6 @@ Do not use version 1.0.0 of Prometheus: https://groups.google.com/forum/#!topic/
 Even if the module has templates for several linux distributions, only RH family distributions were tested.
 
 ## Development
-Open an [issue](https://github.com/brutus333/puppet-prometheus/issues) or
-[fork](https://github.com/brutus333/puppet-prometheus/fork) and open a
-[Pull Request](https://github.com/brutus333/puppet-prometheus/pulls)
+Open an [issue](https://github.com/EmpaticoOrg/puppet-prometheus/issues) or
+[fork](https://github.com/EmpaticoOrg/puppet-prometheus/fork) and open a
+[Pull Request](https://github.com/EmpaticoOrg/puppet-prometheus/pulls)
