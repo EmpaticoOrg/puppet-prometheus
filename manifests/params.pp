@@ -52,6 +52,7 @@ class prometheus::params {
   $collectd_exporter_package_name = 'collectd_exporter'
   $collectd_exporter_extra_groups = []
   $collectd_exporter_user = 'collectd-exporter'
+  $collectd_exporter_group = 'collectd-exporter'
   $alertmanager_download_url_base = 'https://github.com/prometheus/alertmanager/releases'
   $alertmanager_config_dir = '/etc/alertmanager'
   $alertmanager_config_file = "${alertmanager_config_dir}/alertmanager.yaml"

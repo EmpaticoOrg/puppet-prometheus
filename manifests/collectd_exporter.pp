@@ -111,6 +111,8 @@ class prometheus::collectd_exporter (
     default => undef,
   }
 
+  $options = ''
+
   prometheus::daemon { 'collectd_exporter':
     install_method     => $install_method,
     version            => $version,
