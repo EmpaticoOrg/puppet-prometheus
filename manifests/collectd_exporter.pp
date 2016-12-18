@@ -111,7 +111,7 @@ class prometheus::collectd_exporter (
     default => undef,
   }
 
-  $options = ''
+  $options = "-collectd.listen-address=':25826'"
 
   prometheus::daemon { 'collectd_exporter':
     install_method     => $install_method,
