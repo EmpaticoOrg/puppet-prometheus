@@ -11,7 +11,6 @@ define prometheus::daemon (
   $package_ensure,
   $manage_user,
   $extra_groups,
-  $group,
   $manage_group,
   $purge,
   $user,
